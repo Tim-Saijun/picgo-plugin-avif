@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-avif",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert image to avif format. 图片格式转换为avif",
   "main": "dist/index.js",
   "publishConfig": {
@@ -11,12 +11,6 @@
     "type": "git",
     "url": "https://github.com/Tim-Saijun/picgo-plugin-avif"
   },
-  "files": [
-    "src",
-    "dist",
-    "index.js",
-    "!images"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
