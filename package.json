@@ -1,0 +1,48 @@
+{
+  "name": "picgo-plugin-avif",
+  "version": "1.0.0",
+  "description": "Convert image to avif format. 图片格式转换为avif",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Tim-Saijun/picgo-plugin-avif",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "dev": "tsc -w -p .",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "PicoGo",
+    "Plugin",
+    "picgo-gui-plugin",
+    "AVIF",
+    "avif",
+    "image"
+  ],
+  "author": "Tim-Saijun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "16.9.1",
+    "@types/sharp": "^0.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "picgo": "^1.5.0-alpha.13",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "picgo-plugin-avif": "file:",
+    "sharp": "^0.32.5"
+  }
+}
