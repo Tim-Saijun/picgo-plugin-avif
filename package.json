@@ -12,6 +12,9 @@
     "url": "https://github.com/Tim-Saijun/picgo-plugin-avif"
   },
   "files": [
+    "src",
+    "dist",
+    "index.js",
     "!images"
   ],
   "scripts": {
