@@ -7,13 +7,13 @@
 ```bash
 picgo add avif
 ```
-## Usage使用方法
+Usage使用方法
 ```bash
 picgo use plugins
 ```
 
 ## 贡献指南
-欢迎贡献代码和提出改进建议。请遵循以下步骤：
+欢迎贡献代码和提出改进建议。
    
 ## 鸣谢
 本项目感谢以下开源库和工具：
