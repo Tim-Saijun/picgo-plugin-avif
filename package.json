@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-avif",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert image to avif format. 图片格式转换为avif",
   "main": "dist/index.js",
   "publishConfig": {
